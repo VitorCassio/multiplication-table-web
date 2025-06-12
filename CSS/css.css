@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+/* Reset básico para remover margens e espaçamentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilizando o título */
+.titulo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+    position:  relative;
+    left: 100px;
+}
+
+/* Estilizando os botões */
+.button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+    top: 180px;
+    left: 95px;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Estilizando o campo de entrada */
+.input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 10px;
+    position: relative;
+    left: 90px;
+}
+
+/* Estilizando o texto dos parágrafos */
+.text1 {
+    font-size: 1.2em;
+    margin: 20px 0;
+    position: relative;
+    left: 80px;
+}
+.text2 {
+    font-size: 1.2em;
+    margin: 20px 0;
+    position: relative;
+    left: 100px;
+}
+
+/* Estilizando a área de exibição do resultado */
+.display {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    min-height: 50px;
+    position: relative;
+    left: 550px;
+    width: 50%;
+}
